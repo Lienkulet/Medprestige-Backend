@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="MedPrestige.BLL/MedPrestige.BLL.csproj" />
+  <Project Path="MedPrestige.DAL/MedPrestige.DAL.csproj" />
+  <Project Path="MedPrestige.Models/MedPrestige.Models.csproj" />
+  <Project Path="MedPrestige.UI/MedPrestige.UI.csproj" />
+</Solution>

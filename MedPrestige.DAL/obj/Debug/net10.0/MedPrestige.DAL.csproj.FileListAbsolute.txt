@@ -1,0 +1,15 @@
+/Users/lienku/Desktop/medapp/backend/MedPrestige.DAL/bin/Debug/net10.0/MedPrestige.DAL.deps.json
+/Users/lienku/Desktop/medapp/backend/MedPrestige.DAL/bin/Debug/net10.0/MedPrestige.DAL.dll
+/Users/lienku/Desktop/medapp/backend/MedPrestige.DAL/bin/Debug/net10.0/MedPrestige.DAL.pdb
+/Users/lienku/Desktop/medapp/backend/MedPrestige.DAL/bin/Debug/net10.0/MedPrestige.Models.dll
+/Users/lienku/Desktop/medapp/backend/MedPrestige.DAL/bin/Debug/net10.0/MedPrestige.Models.pdb
+/Users/lienku/Desktop/medapp/backend/MedPrestige.DAL/obj/Debug/net10.0/MedPrestige.DAL.csproj.AssemblyReference.cache
+/Users/lienku/Desktop/medapp/backend/MedPrestige.DAL/obj/Debug/net10.0/MedPrestige.DAL.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lienku/Desktop/medapp/backend/MedPrestige.DAL/obj/Debug/net10.0/MedPrestige.DAL.AssemblyInfoInputs.cache
+/Users/lienku/Desktop/medapp/backend/MedPrestige.DAL/obj/Debug/net10.0/MedPrestige.DAL.AssemblyInfo.cs
+/Users/lienku/Desktop/medapp/backend/MedPrestige.DAL/obj/Debug/net10.0/MedPrestige.DAL.csproj.CoreCompileInputs.cache
+/Users/lienku/Desktop/medapp/backend/MedPrestige.DAL/obj/Debug/net10.0/MedPrest.FA8BB4E8.Up2Date
+/Users/lienku/Desktop/medapp/backend/MedPrestige.DAL/obj/Debug/net10.0/MedPrestige.DAL.dll
+/Users/lienku/Desktop/medapp/backend/MedPrestige.DAL/obj/Debug/net10.0/refint/MedPrestige.DAL.dll
+/Users/lienku/Desktop/medapp/backend/MedPrestige.DAL/obj/Debug/net10.0/MedPrestige.DAL.pdb
+/Users/lienku/Desktop/medapp/backend/MedPrestige.DAL/obj/Debug/net10.0/ref/MedPrestige.DAL.dll
