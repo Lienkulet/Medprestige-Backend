@@ -9,10 +9,12 @@ namespace MedPrestige.BLL.Logic
     public class DoctorLogic : BaseLogic<Doctor, DoctorDto>, IDoctorLogic
     {
         private readonly IDoctorRepository _doctorRepository;
+        private readonly IDoctorServiceRepository _doctorServiceRepository;
 
-        public DoctorLogic(IDoctorRepository doctorRepository, IMapper mapper) : base(mapper)
+        public DoctorLogic(IDoctorRepository doctorRepository, IDoctorServiceRepository doctorServiceRepository, IMapper mapper) : base(mapper)
         {
             _doctorRepository = doctorRepository;
+            _doctorServiceRepository = doctorServiceRepository;
         }
 
         public List<DoctorDto> GetAll()
@@ -58,6 +60,16 @@ namespace MedPrestige.BLL.Logic
             doctor.Image = dto.Image;
 
             _doctorRepository.Update(doctor);
+        }
+
+        public List<DoctorDto> GetByServiceId(int serviceId)
+        {
+            var doctorServices = _doctorServiceRepository.GetByServiceId(serviceId);
+            var doctors = doctorServices
+                .Where(ds => ds.Doctor != null)
+                .Select(ds => ds.Doctor)
+                .ToList();
+            return MapToDtoList(doctors);
         }
 
         public void Delete(int id)

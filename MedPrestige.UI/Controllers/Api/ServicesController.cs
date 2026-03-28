@@ -28,5 +28,12 @@ namespace MedPrestige.UI.Controllers.Api
             if (service == null) return NotFound();
             return Ok(service);
         }
+
+        [HttpGet("{id}/doctors")]
+        public IActionResult GetDoctors(int id)
+        {
+            var doctors = _bl.Doctors.GetByServiceId(id);
+            return Ok(doctors);
+        }
     }
 }

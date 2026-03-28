@@ -10,3 +10,4 @@
 /Users/lienku/Desktop/medapp/backend/MedPrestige.Models/obj/Debug/net10.0/refint/MedPrestige.Models.dll
 /Users/lienku/Desktop/medapp/backend/MedPrestige.Models/obj/Debug/net10.0/MedPrestige.Models.pdb
 /Users/lienku/Desktop/medapp/backend/MedPrestige.Models/obj/Debug/net10.0/ref/MedPrestige.Models.dll
+/Users/lienku/Desktop/medapp/backend/MedPrestige.Models/obj/Debug/net10.0/MedPrestige.Models.sourcelink.json

@@ -15,3 +15,4 @@
 /Users/lienku/Desktop/medapp/backend/MedPrestige.BLL/obj/Debug/net10.0/refint/MedPrestige.BLL.dll
 /Users/lienku/Desktop/medapp/backend/MedPrestige.BLL/obj/Debug/net10.0/MedPrestige.BLL.pdb
 /Users/lienku/Desktop/medapp/backend/MedPrestige.BLL/obj/Debug/net10.0/ref/MedPrestige.BLL.dll
+/Users/lienku/Desktop/medapp/backend/MedPrestige.BLL/obj/Debug/net10.0/MedPrestige.BLL.sourcelink.json

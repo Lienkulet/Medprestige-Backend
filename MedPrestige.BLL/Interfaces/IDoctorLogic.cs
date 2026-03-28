@@ -7,6 +7,7 @@ namespace MedPrestige.BLL.Interfaces
         List<DoctorDto> GetAll();
         DoctorDto GetById(int id);
         List<DoctorDto> GetByStatus(string status);
+        List<DoctorDto> GetByServiceId(int serviceId);
         void Add(DoctorDto dto);
         void Update(DoctorDto dto);
         void Delete(int id);
