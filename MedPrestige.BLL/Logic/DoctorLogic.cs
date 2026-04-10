@@ -36,6 +36,7 @@ namespace MedPrestige.BLL.Logic
         {
             var doctor = new Doctor
             {
+                UserId = dto.UserId,
                 Occupation = dto.Occupation,
                 Bio = dto.Bio,
                 Location = dto.Location,

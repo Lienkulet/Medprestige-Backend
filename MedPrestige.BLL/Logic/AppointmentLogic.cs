@@ -44,7 +44,9 @@ namespace MedPrestige.BLL.Logic
         {
             var appointment = new Appointment
             {
-                PatientId = dto.AppointmentId,
+                PatientId = dto.PatientId,
+                DoctorId = dto.DoctorId,
+                ServiceId = dto.ServiceId,
                 StartAt = dto.StartAt,
                 EndAt = dto.EndAt,
                 Status = dto.Status
@@ -58,6 +60,9 @@ namespace MedPrestige.BLL.Logic
             var appointment = _appointmentRepository.GetById(dto.AppointmentId);
             if (appointment == null) return;
 
+            appointment.PatientId = dto.PatientId;
+            appointment.DoctorId = dto.DoctorId;
+            appointment.ServiceId = dto.ServiceId;
             appointment.StartAt = dto.StartAt;
             appointment.EndAt = dto.EndAt;
             appointment.Status = dto.Status;

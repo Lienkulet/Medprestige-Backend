@@ -26,6 +26,11 @@ namespace MedPrestige.BLL.Logic
             return MapToDto(_userRepository.GetById(id));
         }
 
+        public UserDto GetByEmail(string email)
+        {
+            return MapToDto(_userRepository.GetByEmail(email));
+        }
+
         public UserDto Login(string email, string password)
         {
             var user = _userRepository.GetByEmail(email);
@@ -55,6 +60,7 @@ namespace MedPrestige.BLL.Logic
             if (user == null) return;
 
             user.Name = dto.Name;
+            user.Email = dto.Email;
             user.Phone = dto.Phone;
             user.Status = dto.Status;
 

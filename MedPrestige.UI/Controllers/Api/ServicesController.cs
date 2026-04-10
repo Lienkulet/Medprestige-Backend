@@ -1,4 +1,5 @@
 using MedPrestige.BLL;
+using MedPrestige.Models.DTOs;
 using Microsoft.AspNetCore.Mvc;
 
 namespace MedPrestige.UI.Controllers.Api
@@ -34,6 +35,33 @@ namespace MedPrestige.UI.Controllers.Api
         {
             var doctors = _bl.Doctors.GetByServiceId(id);
             return Ok(doctors);
+        }
+
+        [HttpPost]
+        public IActionResult Create([FromBody] ServiceDto dto)
+        {
+            _bl.Services.Add(dto);
+            var latest = _bl.Services.GetAll().OrderByDescending(s => s.ServiceId).First();
+            return CreatedAtAction(nameof(GetById), new { id = latest.ServiceId }, latest);
+        }
+
+        [HttpPut("{id}")]
+        public IActionResult Update(int id, [FromBody] ServiceDto dto)
+        {
+            var existing = _bl.Services.GetById(id);
+            if (existing == null) return NotFound();
+            dto.ServiceId = id;
+            _bl.Services.Update(dto);
+            return Ok(_bl.Services.GetById(id));
+        }
+
+        [HttpDelete("{id}")]
+        public IActionResult Delete(int id)
+        {
+            var existing = _bl.Services.GetById(id);
+            if (existing == null) return NotFound();
+            _bl.Services.Delete(id);
+            return NoContent();
         }
     }
 }
