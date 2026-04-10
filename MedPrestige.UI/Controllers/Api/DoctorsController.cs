@@ -1,4 +1,5 @@
 using MedPrestige.BLL;
+using MedPrestige.Models.DTOs;
 using Microsoft.AspNetCore.Mvc;
 
 namespace MedPrestige.UI.Controllers.Api
