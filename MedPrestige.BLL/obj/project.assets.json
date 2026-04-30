@@ -948,11 +948,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/lienku/Desktop/medapp/backend/MedPrestige.BLL/MedPrestige.BLL.csproj",
+      "projectUniqueName": "/Users/lienku/Desktop/testmed/backend/MedPrestige.BLL/MedPrestige.BLL.csproj",
       "projectName": "MedPrestige.BLL",
-      "projectPath": "/Users/lienku/Desktop/medapp/backend/MedPrestige.BLL/MedPrestige.BLL.csproj",
+      "projectPath": "/Users/lienku/Desktop/testmed/backend/MedPrestige.BLL/MedPrestige.BLL.csproj",
       "packagesPath": "/Users/lienku/.nuget/packages/",
-      "outputPath": "/Users/lienku/Desktop/medapp/backend/MedPrestige.BLL/obj/",
+      "outputPath": "/Users/lienku/Desktop/testmed/backend/MedPrestige.BLL/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/lienku/.nuget/NuGet/NuGet.Config"
@@ -967,11 +967,11 @@
         "net10.0": {
           "targetAlias": "net10.0",
           "projectReferences": {
-            "/Users/lienku/Desktop/medapp/backend/MedPrestige.DAL/MedPrestige.DAL.csproj": {
-              "projectPath": "/Users/lienku/Desktop/medapp/backend/MedPrestige.DAL/MedPrestige.DAL.csproj"
+            "/Users/lienku/Desktop/testmed/backend/MedPrestige.DAL/MedPrestige.DAL.csproj": {
+              "projectPath": "/Users/lienku/Desktop/testmed/backend/MedPrestige.DAL/MedPrestige.DAL.csproj"
             },
-            "/Users/lienku/Desktop/medapp/backend/MedPrestige.Models/MedPrestige.Models.csproj": {
-              "projectPath": "/Users/lienku/Desktop/medapp/backend/MedPrestige.Models/MedPrestige.Models.csproj"
+            "/Users/lienku/Desktop/testmed/backend/MedPrestige.Models/MedPrestige.Models.csproj": {
+              "projectPath": "/Users/lienku/Desktop/testmed/backend/MedPrestige.Models/MedPrestige.Models.csproj"
             }
           }
         }

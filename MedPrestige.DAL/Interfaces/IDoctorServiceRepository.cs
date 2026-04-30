@@ -8,5 +8,6 @@ namespace MedPrestige.DAL.Interfaces
         List<DoctorService> GetByServiceId(int serviceId);
         void Add(DoctorService doctorService);
         void Delete(int id);
+        void DeleteByDoctorId(int doctorId);
     }
 }

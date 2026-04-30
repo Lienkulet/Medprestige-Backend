@@ -908,11 +908,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/lienku/Desktop/medapp/backend/MedPrestige.Models/MedPrestige.Models.csproj",
+      "projectUniqueName": "/Users/lienku/Desktop/testmed/backend/MedPrestige.Models/MedPrestige.Models.csproj",
       "projectName": "MedPrestige.Models",
-      "projectPath": "/Users/lienku/Desktop/medapp/backend/MedPrestige.Models/MedPrestige.Models.csproj",
+      "projectPath": "/Users/lienku/Desktop/testmed/backend/MedPrestige.Models/MedPrestige.Models.csproj",
       "packagesPath": "/Users/lienku/.nuget/packages/",
-      "outputPath": "/Users/lienku/Desktop/medapp/backend/MedPrestige.Models/obj/",
+      "outputPath": "/Users/lienku/Desktop/testmed/backend/MedPrestige.Models/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/lienku/.nuget/NuGet/NuGet.Config"

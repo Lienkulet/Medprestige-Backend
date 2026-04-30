@@ -45,5 +45,12 @@ namespace MedPrestige.DAL.Repositories
                 _context.SaveChanges();
             }
         }
+
+        public void DeleteByDoctorId(int doctorId)
+        {
+            var entries = _context.DoctorServices.Where(ds => ds.DoctorId == doctorId).ToList();
+            _context.DoctorServices.RemoveRange(entries);
+            _context.SaveChanges();
+        }
     }
 }

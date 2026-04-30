@@ -18,13 +18,14 @@ namespace MedPrestige.BLL
             IPatientRepository patientRepository,
             IDoctorRepository doctorRepository,
             IDoctorServiceRepository doctorServiceRepository,
+            IDoctorDetailRepository doctorDetailRepository,
             IServiceRepository serviceRepository,
             IAppointmentRepository appointmentRepository,
             IMapper mapper)
         {
             Users = new UserLogic(userRepository, mapper);
             Patients = new PatientLogic(patientRepository, mapper);
-            Doctors = new DoctorLogic(doctorRepository, doctorServiceRepository, mapper);
+            Doctors = new DoctorLogic(doctorRepository, doctorServiceRepository, doctorDetailRepository, userRepository, mapper);
             Services = new ServiceLogic(serviceRepository, mapper);
             Appointments = new AppointmentLogic(appointmentRepository, mapper);
         }

@@ -7,5 +7,6 @@ namespace MedPrestige.DAL.Interfaces
         List<DoctorDetail> GetByDoctorId(int doctorId);
         void Add(DoctorDetail detail);
         void Delete(int id);
+        void DeleteByDoctorId(int doctorId);
     }
 }

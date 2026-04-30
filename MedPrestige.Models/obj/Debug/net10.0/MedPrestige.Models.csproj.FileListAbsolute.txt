@@ -11,3 +11,16 @@
 /Users/lienku/Desktop/medapp/backend/MedPrestige.Models/obj/Debug/net10.0/MedPrestige.Models.pdb
 /Users/lienku/Desktop/medapp/backend/MedPrestige.Models/obj/Debug/net10.0/ref/MedPrestige.Models.dll
 /Users/lienku/Desktop/medapp/backend/MedPrestige.Models/obj/Debug/net10.0/MedPrestige.Models.sourcelink.json
+/Users/lienku/Desktop/testmed/backend/MedPrestige.Models/bin/Debug/net10.0/MedPrestige.Models.deps.json
+/Users/lienku/Desktop/testmed/backend/MedPrestige.Models/bin/Debug/net10.0/MedPrestige.Models.dll
+/Users/lienku/Desktop/testmed/backend/MedPrestige.Models/bin/Debug/net10.0/MedPrestige.Models.pdb
+/Users/lienku/Desktop/testmed/backend/MedPrestige.Models/obj/Debug/net10.0/MedPrestige.Models.csproj.AssemblyReference.cache
+/Users/lienku/Desktop/testmed/backend/MedPrestige.Models/obj/Debug/net10.0/MedPrestige.Models.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lienku/Desktop/testmed/backend/MedPrestige.Models/obj/Debug/net10.0/MedPrestige.Models.AssemblyInfoInputs.cache
+/Users/lienku/Desktop/testmed/backend/MedPrestige.Models/obj/Debug/net10.0/MedPrestige.Models.AssemblyInfo.cs
+/Users/lienku/Desktop/testmed/backend/MedPrestige.Models/obj/Debug/net10.0/MedPrestige.Models.csproj.CoreCompileInputs.cache
+/Users/lienku/Desktop/testmed/backend/MedPrestige.Models/obj/Debug/net10.0/MedPrestige.Models.sourcelink.json
+/Users/lienku/Desktop/testmed/backend/MedPrestige.Models/obj/Debug/net10.0/MedPrestige.Models.dll
+/Users/lienku/Desktop/testmed/backend/MedPrestige.Models/obj/Debug/net10.0/refint/MedPrestige.Models.dll
+/Users/lienku/Desktop/testmed/backend/MedPrestige.Models/obj/Debug/net10.0/MedPrestige.Models.pdb
+/Users/lienku/Desktop/testmed/backend/MedPrestige.Models/obj/Debug/net10.0/ref/MedPrestige.Models.dll

@@ -14,5 +14,8 @@ namespace MedPrestige.Models.DTOs
         public string Status { get; set; }
         public string Image { get; set; }
         public List<DoctorDetailDto> Details { get; set; }
+        public List<int> ServiceIds { get; set; }
+        public string WorkingHours { get; set; }
+        public string Qualifications { get; set; }
     }
 }

@@ -14,6 +14,7 @@ namespace MedPrestige.Models.Mapping
 
             // Patient
             CreateMap<Patient, PatientDto>()
+                .ForMember(dest => dest.UserId, opt => opt.MapFrom(src => src.UserId))
                 .ForMember(dest => dest.Name, opt => opt.MapFrom(src => src.User != null ? src.User.Name : null))
                 .ForMember(dest => dest.Email, opt => opt.MapFrom(src => src.User != null ? src.User.Email : null))
                 .ForMember(dest => dest.Phone, opt => opt.MapFrom(src => src.User != null ? src.User.Phone : null));
@@ -24,7 +25,19 @@ namespace MedPrestige.Models.Mapping
                 .ForMember(dest => dest.Name, opt => opt.MapFrom(src => src.User != null ? src.User.Name : null))
                 .ForMember(dest => dest.Email, opt => opt.MapFrom(src => src.User != null ? src.User.Email : null))
                 .ForMember(dest => dest.Phone, opt => opt.MapFrom(src => src.User != null ? src.User.Phone : null))
-                .ForMember(dest => dest.Details, opt => opt.MapFrom(src => src.DoctorDetails));
+                .ForMember(dest => dest.Details, opt => opt.MapFrom(src => src.DoctorDetails))
+                .ForMember(dest => dest.ServiceIds, opt => opt.MapFrom(src =>
+                    src.DoctorServices != null
+                        ? src.DoctorServices.Where(ds => ds.ServiceId.HasValue).Select(ds => ds.ServiceId!.Value).ToList()
+                        : new List<int>()))
+                .ForMember(dest => dest.WorkingHours, opt => opt.MapFrom(src =>
+                    src.DoctorDetails != null
+                        ? src.DoctorDetails.Where(d => d.Type == "working_hours").Select(d => d.Value).FirstOrDefault()
+                        : null))
+                .ForMember(dest => dest.Qualifications, opt => opt.MapFrom(src =>
+                    src.DoctorDetails != null
+                        ? src.DoctorDetails.Where(d => d.Type == "qualifications").Select(d => d.Value).FirstOrDefault()
+                        : null));
 
             // DoctorDetail
             CreateMap<DoctorDetail, DoctorDetailDto>();

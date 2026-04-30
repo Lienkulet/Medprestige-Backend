@@ -19,6 +19,7 @@ namespace MedPrestige.DAL.Repositories
             return _context.Doctors
                 .Include(d => d.User)
                 .Include(d => d.DoctorDetails)
+                .Include(d => d.DoctorServices)
                 .ToList();
         }
 
@@ -27,6 +28,7 @@ namespace MedPrestige.DAL.Repositories
             return _context.Doctors
                 .Include(d => d.User)
                 .Include(d => d.DoctorDetails)
+                .Include(d => d.DoctorServices)
                 .FirstOrDefault(d => d.DoctorId == id);
         }
 

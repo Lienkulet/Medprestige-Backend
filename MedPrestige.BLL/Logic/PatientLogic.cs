@@ -34,7 +34,7 @@ namespace MedPrestige.BLL.Logic
         {
             var patient = new Patient
             {
-                UserId = dto.PatientId,
+                UserId = dto.UserId,
                 DateOfBirth = dto.DateOfBirth,
                 Gender = dto.Gender,
                 Address = dto.Address

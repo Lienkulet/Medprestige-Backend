@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "h81FlKHHo0s=",
+  "dgSpecHash": "kDd9YRFl/CU=",
   "success": true,
-  "projectFilePath": "/Users/lienku/Desktop/medapp/backend/MedPrestige.BLL/MedPrestige.BLL.csproj",
+  "projectFilePath": "/Users/lienku/Desktop/testmed/backend/MedPrestige.BLL/MedPrestige.BLL.csproj",
   "expectedPackageFiles": [
     "/Users/lienku/.nuget/packages/automapper/16.1.1/automapper.16.1.1.nupkg.sha512",
     "/Users/lienku/.nuget/packages/microsoft.entityframeworkcore/9.0.4/microsoft.entityframeworkcore.9.0.4.nupkg.sha512",
