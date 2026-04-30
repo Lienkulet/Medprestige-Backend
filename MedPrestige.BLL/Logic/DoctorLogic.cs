@@ -59,7 +59,7 @@ namespace MedPrestige.BLL.Logic
                 Name = dto.Name,
                 Email = dto.Email,
                 Phone = dto.Phone,
-                Password = CryptoHelper.HashPassword(!string.IsNullOrWhiteSpace(dto.Password) ? dto.Password : "changeme"),
+                Password = CryptoHelper.HashPassword(!string.IsNullOrWhiteSpace(dto.Password) ? dto.Password.Trim() : "changeme"),
                 Status = "Active"
             };
             _userRepository.Add(user);
@@ -100,7 +100,7 @@ namespace MedPrestige.BLL.Logic
                     user.Email = dto.Email;
                     user.Phone = dto.Phone;
                     if (!string.IsNullOrWhiteSpace(dto.Password))
-                        user.Password = CryptoHelper.HashPassword(dto.Password);
+                        user.Password = CryptoHelper.HashPassword(dto.Password.Trim());
                     _userRepository.Update(user);
                 }
             }
@@ -111,7 +111,7 @@ namespace MedPrestige.BLL.Logic
                     Name = dto.Name,
                     Email = dto.Email,
                     Phone = dto.Phone,
-                    Password = "changeme",
+                    Password = CryptoHelper.HashPassword(!string.IsNullOrWhiteSpace(dto.Password) ? dto.Password.Trim() : "changeme"),
                     Status = "Active"
                 };
                 _userRepository.Add(user);
