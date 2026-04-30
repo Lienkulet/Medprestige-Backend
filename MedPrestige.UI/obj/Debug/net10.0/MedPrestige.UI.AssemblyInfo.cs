@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MedPrestige.UI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+77f8c881b5cef1bc156555b9dfe09bd9a16bda07")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+52c7cdba7fe0b14d15846c1a70ed86b40a8eddc3")]
 [assembly: System.Reflection.AssemblyProductAttribute("MedPrestige.UI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MedPrestige.UI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
