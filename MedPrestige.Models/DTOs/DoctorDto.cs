@@ -17,5 +17,6 @@ namespace MedPrestige.Models.DTOs
         public List<int> ServiceIds { get; set; }
         public string WorkingHours { get; set; }
         public string Qualifications { get; set; }
+        public string Password { get; set; }
     }
 }

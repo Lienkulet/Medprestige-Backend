@@ -1,4 +1,5 @@
 using AutoMapper;
+using MedPrestige.BLL.Helpers;
 using MedPrestige.BLL.Interfaces;
 using MedPrestige.DAL.Interfaces;
 using MedPrestige.Models.DTOs;
@@ -58,7 +59,7 @@ namespace MedPrestige.BLL.Logic
                 Name = dto.Name,
                 Email = dto.Email,
                 Phone = dto.Phone,
-                Password = "changeme",
+                Password = CryptoHelper.HashPassword(!string.IsNullOrWhiteSpace(dto.Password) ? dto.Password : "changeme"),
                 Status = "Active"
             };
             _userRepository.Add(user);
@@ -98,6 +99,8 @@ namespace MedPrestige.BLL.Logic
                     user.Name = dto.Name;
                     user.Email = dto.Email;
                     user.Phone = dto.Phone;
+                    if (!string.IsNullOrWhiteSpace(dto.Password))
+                        user.Password = CryptoHelper.HashPassword(dto.Password);
                     _userRepository.Update(user);
                 }
             }
