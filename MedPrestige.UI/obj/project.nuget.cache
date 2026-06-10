@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YLjeGTYnYqQ=",
+  "dgSpecHash": "e+/uwRBhhZw=",
   "success": true,
-  "projectFilePath": "/Users/lienku/Desktop/testmed/backend/MedPrestige.UI/MedPrestige.UI.csproj",
+  "projectFilePath": "/Users/lienku/Desktop/untitled folder/Medprestige-Backend/MedPrestige.UI/MedPrestige.UI.csproj",
   "expectedPackageFiles": [
     "/Users/lienku/.nuget/packages/automapper/16.1.1/automapper.16.1.1.nupkg.sha512",
     "/Users/lienku/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/9.0.4/microsoft.aspnetcore.authentication.jwtbearer.9.0.4.nupkg.sha512",

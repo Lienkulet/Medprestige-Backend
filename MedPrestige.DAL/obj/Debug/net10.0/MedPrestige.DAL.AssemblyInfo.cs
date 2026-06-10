@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MedPrestige.DAL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4d1f37013feabcde5e5ebd5b63529163af29bc4e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6bc25e2899ae2c36659660010ea7bf689ea2b563")]
 [assembly: System.Reflection.AssemblyProductAttribute("MedPrestige.DAL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MedPrestige.DAL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
